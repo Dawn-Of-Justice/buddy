@@ -20,7 +20,7 @@ This voice-based assistant is designed to provide a seamless user experience thr
 To get started with the Voice-based Assistant, follow these steps:
 
 1. **Clone the Repository:** Clone this repository to your local machine using the following command:
-git clone https://github.com/your-username/voice-based-assistant.git
+git clone https://github.com/Dawn-Of-Justice/buddy
 
 2. **Install Dependencies:** Navigate to the project directory and install the required dependencies using:
 pip install -r requirements.txt
