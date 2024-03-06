@@ -1,8 +1,3 @@
-openvoice/checkpoints/converter/checkpoint.pth
-openvoice/checkpoints/base_speakers/EN/checkpoint.pth
-openvoice/checkpoints/base_speakers/EN/config.json
-openvoice/checkpoints/base_speakers/EN/en_default_se.pth
-openvoice/checkpoints/base_speakers/EN/en_style_se.pth
-openvoice/checkpoints/converter/config.json
 openvoice/outputs/output_en_default.wav
 openvoice/outputs/tmp.wav
+
