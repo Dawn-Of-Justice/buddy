@@ -3,9 +3,9 @@ from pyaudio import PyAudio, paInt16
 from faster_whisper import WhisperModel
 import audioop
 
-silence_thresh = 300
+silence_thresh = 1000
 max_duration = 30
-max_silence_seconds = 1.5
+max_silence_seconds = 1
 model_size = "medium.en"
 
 debug_mode = False 

@@ -29,10 +29,9 @@ def open_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as infile:
         return infile.read()
 
-def chatgpt_streamed(user_input, system_message, conversation_history, bot_name):
+def chatgpt_streamed(user_input, system_message, conversation_history):
     
     messages = [{"role": "system", "content": system_message}] + conversation_history + [{"role": "user", "content": user_input}]
-    temperature=0.6
     
     streamed_completion = client.chat.completions.create(
         model="local-model",
@@ -41,27 +40,12 @@ def chatgpt_streamed(user_input, system_message, conversation_history, bot_name)
     )
 
     full_response = ""
-    line_buffer = ""
 
-    with open(chat_log_filename, "a") as log_file:
-        for chunk in streamed_completion:
-            delta_content = chunk.choices[0].delta.content
+    for chunk in streamed_completion:
+        if chunk.choices[0].delta.content:
+            full_response += chunk.choices[0].delta.content
 
-            if delta_content is not None:
-                line_buffer += delta_content
-
-                if '\n' in line_buffer:
-                    lines = line_buffer.split('\n')
-                    for line in lines[:-1]:
-                        print(line)
-                        full_response += line + '\n'
-                        log_file.write(f"{bot_name}: {line}\n") 
-                    line_buffer = lines[-1]
-
-        if line_buffer:
-            print(line_buffer)
-            full_response += line_buffer
-            log_file.write(f"{bot_name}: {line_buffer}\n")  # Log the remaining line
+    print(full_response)
 
     return full_response
 
