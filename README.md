@@ -1,6 +1,6 @@
 # Buddy, Here to help!
 
-Welcome to the Voice-based Assistant project! This project utilizes the power of OpenVoice for voice cloning, LLM Mistrial for speech processing, and various other tools for creating a dynamic and responsive voice assistant.
+Welcome to the Voice-based Assistant project! This project utilizes the power of OpenVoice for voice cloning, LLM Mistrial for natural language communication, whisper for speech processing, and various other tools for creating a dynamic and responsive voice assistant.
 
 ![GUI Preview](ai-gui.gif)
 
