@@ -1,5 +1,3 @@
 openvoice/outputs/output_en_default.wav
 openvoice/outputs/tmp.wav
-
-openvoice/checkpoints/base_speakers/EN/checkpoint.pth
-openvoice/checkpoints/converter/checkpoint.pth
+.vscode/*
