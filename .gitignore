@@ -1,5 +1,5 @@
-openvoice/outputs/*
 .vscode/*
 __pycache__/*
 openvoice/__pycache__/*
 openvoice/text/__pycache__/*
+openvoice/outputs/*
