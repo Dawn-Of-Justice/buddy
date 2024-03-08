@@ -14,9 +14,9 @@ Buddy is a voice-based assistant designed to provide a seamless user experience 
 - **Natural-sounding Voice Responses:** Integrates OpenVoice for creating lifelike voice interactions.
 - **Conversational Interface:** Engages users in natural language conversations for intuitive interaction.
 - **Customizability:** Customize responses and behaviors to suit specific use cases and preferences.
-- **Image and Video Processing:** Perform visual question answering with image and video inputs.
-- **Terminal Interaction:** Interact with Buddy through a terminal-based interface, resembling Open Interpreter.
-- **Sound Reactive UI:** Enjoy a minimal and responsive UI that reacts to sound cues.
+- **Image and Video Processing:** Perform visual question answering with image and video inputs. (Under Dev)
+- **Terminal Interaction:** Interact with Buddy through a terminal-based interface, resembling Open Interpreter. (Under Dev)
+- **Sound Reactive UI:** Enjoy a minimal and responsive UI that reacts to sound cues. (Under Dev)
 
 ## Getting Started
 
