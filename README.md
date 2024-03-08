@@ -1,49 +1,58 @@
-# Buddy, Here to help!
+# Welcome to Buddy, Your Voice Assistant!
 
-Welcome to the Voice-based Assistant project! This project utilizes the power of OpenVoice for voice cloning, LLM Mistrial for natural language communication, whisper for speech processing, and various other tools for creating a dynamic and responsive voice assistant that runs locally
+Welcome to Buddy, your dynamic voice assistant project! Buddy utilizes powerful tools such as OpenVoice for voice cloning, LLM Mistrial 7B for natural language communication, whisper for speech processing, and more to create a responsive and interactive voice assistant that operates locally.
 
 <img src="ai-gui.gif" alt="GUI Preview" width="600" >
+
 ## Introduction
 
-This voice-based assistant is designed to provide a seamless user experience through natural language processing and synthesized speech. It aims to assist users with tasks, answer inquiries, and provide information in a conversational manner.
+Buddy is a voice-based assistant designed to provide a seamless user experience through natural language processing and synthesized speech. It's here to assist you with tasks, answer your questions, and engage in conversation with you.
 
-## Features
+## Key Features
 
-- **Speech Processing:** Utilizes LLM Mistrial for advanced speech processing capabilities, enabling accurate transcription and understanding of user commands.
-- **Voice Cloning:** Integrates OpenVoice for creating natural-sounding voice responses, ensuring a lifelike interaction experience.
-- **Conversational Interface:** Engages users in natural language conversations, enabling intuitive interaction and efficient task completion.
-- **Customizable Responses:** Allows customization of responses and behaviours to suit specific use cases and preferences.
+- **Advanced Speech Processing:** Powered by LLM Mistrial for accurate transcription and understanding of user commands.
+- **Natural-sounding Voice Responses:** Integrates OpenVoice for creating lifelike voice interactions.
+- **Conversational Interface:** Engages users in natural language conversations for intuitive interaction.
+- **Customizability:** Customize responses and behaviors to suit specific use cases and preferences.
+- **Image and Video Processing:** Perform visual question answering with image and video inputs.
+- **Terminal Interaction:** Interact with Buddy through a terminal-based interface, resembling Open Interpreter.
+- **Sound Reactive UI:** Enjoy a minimal and responsive UI that reacts to sound cues.
 
 ## Getting Started
 
-To get started with the Voice-based Assistant, follow these steps:
+To begin using Buddy:
 
-1. **Clone the Repository:** Clone this repository to your local machine using the following command:
+1. **Clone the Repository:** Clone this repository to your local machine:
+
+```
 git clone https://github.com/Dawn-Of-Justice/buddy
+```
 
-2. **Install Dependencies:** Navigate to the project directory and install the required dependencies using:
+2. **Install Dependencies:** Navigate to the project directory and install required dependencies:
+```
 pip install -r requirements.txt
+```
+3. **Run the Assistant:** Start Buddy by running the assistant script:
+```
+python buddy.py
+```
 
-3. **Set Up OpenVoice:** Follow the instructions provided by OpenVoice to set up and configure voice cloning capabilities.
-
-4. **Run the Assistant:** Run the assistant script to start the voice-based assistant:
-python assistant.py
-
-5. **Start Interacting:** Once the assistant runs, interact with it using voice commands and natural language input.
+4. **Start Interacting:** Once Buddy is running, interact with it using voice commands and natural language input.
 
 ## Contributing
 
-This project is currently private, and contributions are not accepted. However, please feel free to fix up the repository and customize the assistant for your own use cases.
+We welcome contributions from the community! Whether you have ideas for new features, bug fixes, or improvements, your input is highly appreciated. Please fork the repository, make your changes, and submit a pull request. Let's collaborate to enhance Buddy and make it even more valuable for users!
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+Buddy is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- LLM Mistrial: [Link to LLM Mistrial]([https://llm-mistrial.org/](https://mistral.ai/))
-- OpenVoice: [Link to OpenVoice]([https://openvoice.com/](https://github.com/myshell-ai/OpenVoice))
+- [LLM Mistrial Website](https://github.com/mistralai)
+- [OpenVoice GitHub](https://github.com/myshell-ai/OpenVoice)
+- [Faster whisper GitHub](https://github.com/SYSTRAN/faster-whisper)
 
 ## Support
 
-For any questions or issues, please contact [salosoja@gmail.com](mailto:salosoja@gmail.com)
+For any questions or issues, please contact [salosoja@gmail.com](mailto:salosoja@gmail.com).
