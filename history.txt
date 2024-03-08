@@ -1,0 +1,28 @@
+User :  your recording name so hello
+Buddy:{"message": "Hey there! The name's Buddy. How can I assist you today?", "tone": "friendly", "type": "message"}
+User :  Mm-hmm.
+Buddy:{"message": "Hey there! The name's Buddy. How can I assist you today?", "tone": "friendly", "type": "message"}
+User :  Sing me a song.
+Buddy:{"message": "Okay, let me sing you a little ditty!", "tone": "cheerful", "type": "message"}
+User :  What does Dinty mean?
+Buddy:{"message": "What does Dinty mean?", "tone": "friendly", "type": "message"}
+User :  No, what does dt mean?
+Buddy:{"message": "I'm sorry, I didn't understand your question. Can you please provide more context or clarification?", "tone": "friendly", "type": "message"}
+User :  What does the word Diti mean, boy?
+Buddy:{"message": "I'm sorry, I don't know what you mean by 'Diti'. Can you please provide more context or clarification?", "tone": "sad", "type": "message"}
+User :  said that.
+Buddy:{"message": "What does Diti mean?", "tone": "friendly", "type": "message"}
+User :  I don't know. You tell me.
+Buddy:{"message": "I'm sorry, I don't know what you mean by 'Diti'. Can you please provide more context or clarification?", "tone": "default", "type": "message"}
+User :  Never mind
+Buddy:{"message": "Sorry, I can't answer your question without more information.", "tone": "sad", "type": "message"}
+User :  Good
+Buddy:{"message": "I don't know what Diti means.", "tone": "default", "type": "message"}
+User :  Ignore.
+Buddy:{"message": "I don't know what Diti means.", "tone": "friendly", "type": "message"}
+User :  Ignore that.
+Buddy:{"message": "Ignoring that.", "tone": "default", "type": "message"}
+User :  Good.
+Buddy:{"message": "Ignore it.", "tone": "default", "type": "message"}
+User :  Don't respond back
+Buddy:{"message": "", "tone": "default", "type": "message"}

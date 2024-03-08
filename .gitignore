@@ -1,3 +1,5 @@
-openvoice/outputs/output_en_default.wav
-openvoice/outputs/tmp.wav
+openvoice/outputs/*
 .vscode/*
+__pycache__/*
+openvoice/__pycache__/*
+openvoice/text/__pycache__/*
