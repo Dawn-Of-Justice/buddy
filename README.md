@@ -1,9 +1,8 @@
 # Buddy, Here to help!
 
-Welcome to the Voice-based Assistant project! This project utilizes the power of OpenVoice for voice cloning, LLM Mistrial for natural language communication, whisper for speech processing, and various other tools for creating a dynamic and responsive voice assistant.
+Welcome to the Voice-based Assistant project! This project utilizes the power of OpenVoice for voice cloning, LLM Mistrial for natural language communication, whisper for speech processing, and various other tools for creating a dynamic and responsive voice assistant that runs locally
 
-![GUI Preview](ai-gui.gif)
-
+<img src="ai-gui.gif" alt="GUI Preview" width="600" >
 ## Introduction
 
 This voice-based assistant is designed to provide a seamless user experience through natural language processing and synthesized speech. It aims to assist users with tasks, answer inquiries, and provide information in a conversational manner.
